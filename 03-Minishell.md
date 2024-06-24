@@ -1,0 +1,18 @@
+# 03 - Minishell
+## The Project
+Create a simple shell, managing the environment, handling a collection of builtin functions, and implementing pipe and redirection behaviour.
+
+## Research 
+
+## What I learnt
+One of the more challenging aspects of the shell was correctly implenting pipes. Even with work done on the earlier PipeX project, it was relatively easy to build a system that worked in most situations, enough that if you didn't know how to test it thoroughly you might believe it was correctly implemented. Additionally, with the involvement of forks, the difference between a correct implementation and an incorrect one was hard to spot.
+
+The key concept that had been misunderstood is that the end of a pipe is only properly closed once all proccesses that have access to the particular file descriptor have closed their end of the pipe. This had implications in two areas:
+1. Duplicating a file descriptor with the Standard Input or Output streams essentially means the Standard IO streams become additional copies of the file descriptor. As we want any reading and writing to happen via the Standard IO streams, we want all other ends of the pipes closed, meaning it was necessary to close the pipe end we just duplicated immediately after duplication.
+2. When forking, the child process receives a copy of any file descriptors that the parent process had access to. Thus, if we expect the child to be able to close the pipe for writing so the next child process can start reading, the parent must close its copy of the pipe file descriptor. Critically, it should do so as soon as there are no longer any child processes that require a copy of it, so that subsequent child processes in a pipeline don't receive copies of the file descriptor that must be closed. 
+
+The test that helped with illustrating whether this was working properly was ``cat | cat | ls``. In Bash, the command immediately outputs the result of ls, and then leaves you in the input prompt of cat. However, upon pressing enter twice, it leaves the cat prompts and returns to the shell prompt. What is happening is that ls immediately runs, and so closes the standard in stream, which is the read end of a pipe shared with the middle cat. Upon pressing enter the cat commands try and pass input through their output pipes, only the middle cat  receives a SIGPIPE error as it tried to write to a pipe with the read end already closed. The SIGPIPE causes the middle cat process to terminate. Then when the prompt receives the next new line, the first cat attempts to write to its output, but the middle cat being terminated means the read end of the pipe is now closed, so the first cat now receives a SIGPIPE and closes. Then, with all processes finally terminated, the parent process can finally return to the main shell prompt.
+
+That being said, if your implementation is overzealous with closing pipes, ``cat | cat | ls`` may work but normal pipe commands might not, so it was important to test alongside something like `` ls | grep i`` (in a directory with something containing an i - the minishell will work for this).
+
+The approach I took to getting this implemented properly was different to what I had tried before, in that I created a new project file in which I only implemented the pipe behaviour. I hardcoded my two test cases, and only once I had discovered why it had not been working, and had finally implemented the pipes correctly, did I rework the minishell code to utilise/mirror the approach I took in the new project file.
