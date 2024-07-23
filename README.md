@@ -3,7 +3,7 @@
 
 ## The Projects 
 | Ring | Project | Team Size | Description | Completed |
-| ---- | ------- | --------- | ----------- | --------- |
+| :--: | :-----: | :-------: | ----------- | :-------: |
 | 0 | Libft | 1 | Implementing a collection of C library functions to learn the library and the essentials of pointers and memory management | 11 March 2024|
 | 1 | get_next_line | 1 | Implenting a version of getline to learn static variables | 27 March 2024|
 | 1 | ft_printf | 1 | Implementing printf with a selection of formats and options to learn variadic functions | 29 March 2024 |
