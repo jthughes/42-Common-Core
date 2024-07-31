@@ -16,9 +16,9 @@ Below are the projects undertaken in my studies at 42 Adelaide.
 | 3 | [Minishell](/projects/03-Minishell.md) | 2 | Creating a mini terminal shell, handling environment, builtins, pipes, and redirection | 13 June 2024 |
 | 3 | [Philosophers](/projects/03-Philosophers.md) | 1 | Learn about syncronising threads by implementing a solution to the philosophers problem | 19 June 2024 |
 | 4 | [NetPractice](/projects/04-NetPractice.md) | 1 | Basic network configuration of device IP addresses and network subnet masks | 26 June 2024 |
-| 4 | [CPP Modules 00-04](/projects/04-CPP_Modules_Part_1.md) | 1 |  | 24 July 2024 |
+| 4 | CPP Modules <br> 00-04 | 1 | [00](/projects/CPP%20Modules/04-CPP_Module_00.md) - C++ introduction, cout, strings. <br> [01](/projects/CPP%20Modules/04-CPP_Module_01.md) - Memory allocation, pointers to members, switch statement. <br> [02](/projects/CPP%20Modules/04-CPP_Module_02.md) - Ad-hoc polymorphism, overloads, orthodox canonical classes. <br> [03](/projects/CPP%20Modules/04-CPP_Module_03.md) - Inheritance. <br>[04](/projects/CPP%20Modules/04-CPP_Module_04.md) - Subtype polymorphism, abstract classes, interfaces. | 24 July 2024 |
 | 4 | [miniRT](/projects/04-miniRT.md) | 2 | Graphics project to learn essentials of ray casting through making a basic CPU driven 3D scene renderer | 24 July 2024 |
-| 5 | [CPP Modules 05-09](/projects/05-CPP_Modules_Part_2.md) | 1 |  | TBD |
+| 5 | CPP Modules <br> 05-09 | 1 | [05](/projects/CPP%20Modules/05-CPP_Module_05.md) - Exceptions with Try/Catch. <br> [06](/projects/CPP%20Modules/05-CPP_Module_06.md) - C++ Casts. <br> [07](/projects/CPP%20Modules/05-CPP_Module_07.md) - Templates. <br> [08](/projects/CPP%20Modules/05-CPP_Module_08.md) - Templated containers, iterators, algorithms. <br> [09](/projects/CPP%20Modules/05-CPP_Module_09.md) - Containers.  | TBD |
 | 5 | [Inception](/projects/05-Inception.md) | 1 | Configuration of a webserver utilising a series of Docker containers | TBD |
 | 5 | ft_irc | 2-3 | Introduction to network programming through development of an IRC server | TBD |
 | 6 | ft_transcendance | 3-5 | Introduction to Full Stack Development - building the front and back end of website to facilitate a multiplayer webrowser game | TBD |
