@@ -4,3 +4,4 @@
 ## Research 
 
 ## What I learned
+- Orthodox Canonical Form

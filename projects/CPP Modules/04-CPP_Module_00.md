@@ -4,3 +4,5 @@
 ## Research 
 
 ## What I learned
+- Friend Keyword
+- Using vs Using namespace
