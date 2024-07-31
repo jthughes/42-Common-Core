@@ -18,7 +18,7 @@ Below are the projects undertaken in my studies at 42 Adelaide.
 | 4 | [NetPractice](/projects/04-NetPractice.md) | 1 | Basic network configuration of device IP addresses and network subnet masks | 26 June 2024 |
 | 4 | [CPP Modules 00-04](/projects/04-CPP_Modules_Part_1.md) | 1 |  | 24 July 2024 |
 | 4 | [miniRT](/projects/04-miniRT.md) | 2 | Graphics project to learn essentials of ray casting through making a basic CPU driven 3D scene renderer | 24 July 2024 |
-| 5 | CPP Modules 05-09 | 1 |  | TBD |
-| 5 | Inception | 1 | Configuration of a webserver utilising a series of Docker containers | TBD |
+| 5 | [CPP Modules 05-09](/projects/05-CPP_Modules_Part_2.md) | 1 |  | TBD |
+| 5 | [Inception](/projects/05-Inception.md) | 1 | Configuration of a webserver utilising a series of Docker containers | TBD |
 | 5 | ft_irc | 2-3 | Introduction to network programming through development of an IRC server | TBD |
 | 6 | ft_transcendance | 3-5 | Introduction to Full Stack Development - building the front and back end of website to facilitate a multiplayer webrowser game | TBD |
