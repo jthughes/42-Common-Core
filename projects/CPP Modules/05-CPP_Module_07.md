@@ -2,5 +2,9 @@
 ## The Project
 
 ## Research 
+- https://en.cppreference.com/w/cpp/language/templates
+- https://en.cppreference.com/w/cpp/language/function_template
+- https://en.cppreference.com/w/cpp/language/class_template
+- https://en.cppreference.com/w/cpp/language/operators
 
 ## What I learned
