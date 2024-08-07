@@ -8,3 +8,4 @@
 - https://en.cppreference.com/w/cpp/language/operators
 
 ## What I learned
+- You can get a default value of any type through its default constructor i.e. ``int()``. 
