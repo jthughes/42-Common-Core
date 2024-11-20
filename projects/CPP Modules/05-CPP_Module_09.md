@@ -34,7 +34,7 @@
         -https://github.com/decidedlyso/merge-insertion-sort
         - https://www.geeksforgeeks.org/binary-search/
         - https://en.wikipedia.org/wiki/Merge-insertion_sort
-        
+        - https://medium.com/@ionut.cosmin.mihai/c-template-for-any-container-and-not-only-with-fixed-parameter-s-70420d5dc999
 
 
 ## What I learned
