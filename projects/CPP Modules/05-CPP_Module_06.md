@@ -1,6 +1,6 @@
 # 05 - C++ Module 06
 ## The Project
-
+Learn about the different types of casting operators in C++ and where to use them.
 ## Research 
 - [Article on C++ casts](https://cplusplus.com/articles/iG3hAqkS/)
 - [Article on (Un)Serialization](https://isocpp.org/wiki/faq/serialization)
