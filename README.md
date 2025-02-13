@@ -22,3 +22,5 @@ Below are the projects undertaken in my studies at 42 Adelaide.
 | 5 | [ft_irc](projects/05-ft_irc.md) | 2-3 | Introduction to network programming through development of an IRC server | 5 October 2024 | 125% |
 | 5 | [Inception](projects/05-Inception.md) | 1 | Configuration of a webserver utilising a series of Docker containers | 16 October 2024 | 100% |
 | 6 | ft_transcendance | 3-5 | Introduction to Full Stack Development - building the front and back end of website to facilitate a multiplayer webrowser game | TBD | ???% |
+
+My transcript: [link](/files/42%20Common%20Core%20Transcript.pdf)
